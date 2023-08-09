@@ -7,10 +7,43 @@
   padding: 1px 5px 7px;
 }
 
-.new_book_form {
+.error_box {
+  width: 450px;
+  background-color: #F0F0F0;
+  border: 2px solid red;
+  margin: 0 0 20px;
+  padding: 7px 7px 0;
+}
+
+.error_box h2 {
+  color: #FFFFFF;
+  background-color: #CC0000;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  padding: 5px 5px 5px 15px;
+}
+
+.error_box ul {
+  font-size: 12px;
+  margin: 33px;
+  padding: 0 0 0 4opx;
+}
+
+
+.field_with_errors {
+  width:fit-content;
+  background-color: red;
+  padding: 2px;
+}
+
+.field_with_errors input {
+  paddin: 1px 2px;
+}
+
+.book_form {
   margin-bottom: 10px;
 }
 
-.new_book_form label, input {
+.book_form label, .book_form input {
   display: block;
 }

@@ -14,15 +14,23 @@
  *= require_self
  */
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 13px;
   line-height: 18px;
   font-family: verdana, arial, helvetica, sans-serif;
+  margin: 33px;
+}
+
+a {
+  color: #000000;
+}
+
+a:visited {
+  color: #666666;
+}
+
+p {
   margin: 33px;
 }
