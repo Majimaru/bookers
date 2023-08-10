@@ -34,3 +34,11 @@ a:visited {
 p {
   margin: 33px;
 }
+
+.flash-message.notice {
+  color: #008000;
+}
+ 
+.flash-message.alert {
+  color: #930403;
+}
